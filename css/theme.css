@@ -21,12 +21,12 @@
 	--page-font-weight: 300;
 
 	--avatar-max-size: 256px;
-	--avatar-border-color: var(--whbackground);
+	--avatar-border-color: var(--whcomment);
 	--avatar-border-radius: 50%;
 
 	--title-font-family: lust-script-display, serif;
 	--title-font-size: 72px;
-	--title-font-weight: 500;
+	--title-font-weight: 800;
 	--title-text-color: var(--whselection);
 	--tagline-text-color: var(--whcomment);
 
@@ -42,28 +42,28 @@
 	--link-hover-border-color: var(--link-border-color);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
 	:root {
-		/*
-		--page-background-color: #333;
-		--page-text-color: #FFF;
+		--page-background-color: var(--whforeground);
+		--page-text-color: var(--whdarkgrey);
+		--page-font-weight: 400;
 
-		--avatar-border-color: #FFF;
-		*/
+		--tagline-text-color: var(--whdarkgrey);
+		--social-icon-color: var(--whdarkgrey);
+		--social-hover-icon-color: var(--whselection);
+
+		--link-background-color: var(--whlightgrey);
+		--link-text-color: var(--whbackground);
+		--link-border-color: var(--whselection);
+		--link-hover-background-color: var(--whselection);
+		--link-hover-text-color: var(--whforeground);
+		--link-hover-border-color: var(--whselection);
 	}
 }
 
-@media (prefers-color-scheme: light) {
-	:root {
-		--page-background-color: #EEE;
-		--page-text-color: #000;
-
-		--link-background-color: #333;
-		--link-text-color: #FFF;
-		--link-border-color: #333;
-		--link-hover-background-color: #CCC;
-		--link-hover-text-color: #000;
-		--link-hover-border-color: #000;
+@media (max-width: 800px) {
+	.title h1 {
+		font-size: 36px;
 	}
 }
 
