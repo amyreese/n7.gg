@@ -1,0 +1,57 @@
+[page]
+title = "Amethyst Reese"
+tagline = "software engineer, video game enthusiast, virtual astronaut"
+body = """
+    🐈 Cat Mom
+
+    🐍 Pythonista
+    
+    👩‍💻 PEP Author
+    
+    🛠 Developer Tooling
+"""
+footer = """
+    Generated with [plinky!](https://github.com/amyreese/plinky)
+"""
+
+[[social]]
+url = "https://toots.n7.gg/@amethyst"
+text = "Blog"
+brand = "mastodon"
+
+[[social]]
+url = "https://github.com/amyreese"
+text = "@amyreese"
+brand = "github"
+
+[[social]]
+url = "https://noswap.com"
+icon = "square-rss"
+
+[[social]]
+url = "https://last.fm/user/n7cmdr"
+brand = "lastfm"
+
+[[social]]
+url = "https://twitch.tv/n7codes"
+brand = "twitch"
+
+[[social]]
+url = "https://steamcommunity.com/id/n7amy/"
+brand = "steam"
+
+
+[[link]]
+url = "https://noswap.com"
+brand = "firefox"
+text = "Blog"
+
+[[link]]
+url = "https://github.com/amyreese"
+brand = "github"
+text = "Github"
+
+[[link]]
+url = "https://omnilib.dev"
+brand = "python"
+text = "Omnilib Project"
