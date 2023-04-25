@@ -29,6 +29,7 @@
 	--title-font-weight: 800;
 	--title-text-color: var(--whselection);
 	--tagline-text-color: var(--whcomment);
+	--tagline-margin: -1em;
 
 	--social-icon-size: 24px;
 	--social-icon-color: var(--whcomment);
@@ -62,8 +63,10 @@
 }
 
 @media (max-width: 800px) {
-	.title h1 {
-		font-size: 36px;
+	:root {
+		--avatar-max-size: 192px;
+		--title-font-size: 36px;
+		--tagline-margin: 0em;
 	}
 }
 
@@ -71,7 +74,7 @@
 	color: var(--title-text-color);
 }
 .tagline {
-	margin-top: -1em;
+	margin-top: var(--tagline-margin);
 	color: var(--tagline-text-color);
 }
 .body {
