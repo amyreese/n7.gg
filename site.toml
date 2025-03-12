@@ -1,4 +1,5 @@
 [page]
+author = "Amethyst Reese"
 title = "Amethyst Reese"
 tagline = "software engineer, video game enthusiast, virtual astronaut"
 body = """
@@ -20,8 +21,22 @@ footer = """
 
 [[social]]
 url = "https://toots.n7.gg/@amethyst"
-text = "Blog"
+text = "Mastodon"
 brand = "mastodon"
+
+[[social]]
+url = "https://signal.me/#eu/QRxLDs2vtFFKsJkuu7duypytouSsQ20iW2iFVnlnE83RBUHsMEBMH6ihkcUd2vbQ"
+text = "Signal"
+brand = "signal-messenger"
+
+[[social]]
+url = "mailto:amethyst@n7.gg"
+text = "Email"
+icon = "envelope"
+
+[[social]]
+url = "https://noswap.com"
+icon = "square-rss"
 
 [[social]]
 url = "https://github.com/amyreese"
@@ -29,20 +44,12 @@ text = "@amyreese"
 brand = "github"
 
 [[social]]
-url = "https://noswap.com"
-icon = "square-rss"
+url = "https://steamcommunity.com/id/n7amy/"
+brand = "steam"
 
 [[social]]
 url = "https://last.fm/user/n7cmdr"
 brand = "lastfm"
-
-[[social]]
-url = "https://twitch.tv/n7codes"
-brand = "twitch"
-
-[[social]]
-url = "https://steamcommunity.com/id/n7amy/"
-brand = "steam"
 
 
 [[link]]
