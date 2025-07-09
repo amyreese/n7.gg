@@ -25,6 +25,11 @@ text = "Mastodon"
 brand = "mastodon"
 
 [[social]]
+url = "https://bsky.app/profile/amethyst.cat"
+text = "Bluesky"
+brand = "bluesky"
+
+[[social]]
 url = "https://signal.me/#eu/QRxLDs2vtFFKsJkuu7duypytouSsQ20iW2iFVnlnE83RBUHsMEBMH6ihkcUd2vbQ"
 text = "Signal"
 brand = "signal-messenger"
@@ -33,10 +38,6 @@ brand = "signal-messenger"
 url = "mailto:amethyst@n7.gg"
 text = "Email"
 icon = "envelope"
-
-[[social]]
-url = "https://noswap.com"
-icon = "square-rss"
 
 [[social]]
 url = "https://github.com/amyreese"
@@ -50,6 +51,10 @@ brand = "steam"
 [[social]]
 url = "https://last.fm/user/n7cmdr"
 brand = "lastfm"
+
+[[social]]
+url = "https://noswap.com"
+icon = "square-rss"
 
 
 [[link]]
