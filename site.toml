@@ -7,9 +7,7 @@ body = """
 
     🐍 Pythonista
     
-    👩‍💻 PEP Author
-    
-    🛠 Developer Tooling
+    👩‍💻 Developer Tooling
 
     🏳️‍⚧️ Trans Rights Are Human Rights
 
@@ -52,10 +50,11 @@ brand = "steam"
 url = "https://last.fm/user/n7cmdr"
 brand = "lastfm"
 
-[[social]]
-url = "https://noswap.com"
-icon = "square-rss"
 
+[[link]]
+url = "https://noswap.com/about"
+icon = "circle-info"
+text = "About me"
 
 [[link]]
 url = "https://noswap.com"
