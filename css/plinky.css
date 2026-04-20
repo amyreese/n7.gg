@@ -51,10 +51,41 @@ body {
 	list-style: none;
 }
 .socials a {
+	display: inline-block;
+	position: relative;
 	color: var(--social-icon-color);
 }
 .socials a:hover {
 	color: var(--social-hover-icon-color);
+}
+.socialhover {
+	z-index: 1;
+	position: absolute;
+	top: 110%;
+	left: -60px;
+	width: 140px;
+	color: var(--link-text-color);
+	background-color: var(--link-background-color);
+	font-size: var(--social-hover-font-size);
+	padding: 0.5em;
+	border-radius: 0.5em;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+.socialhover::before {
+	content: " ";
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -8px;
+	border-width: 8px;
+	border-style: solid;
+	border-color: transparent transparent var(--link-background-color) transparent;
+}
+.socials a:hover .socialhover {
+	visibility: visible;
+	opacity: 1;
 }
 
 .body {

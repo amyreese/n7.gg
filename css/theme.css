@@ -34,6 +34,7 @@
 	--social-icon-size: 24px;
 	--social-icon-color: var(--whcomment);
 	--social-hover-icon-color: var(--whfunction);
+	--social-hover-font-size: 14px;
 
 	--link-background-color: var(--whhighlight);
 	--link-text-color: var(--whforeground);

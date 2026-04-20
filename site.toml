@@ -19,35 +19,37 @@ footer = """
 
 [[social]]
 url = "https://toots.n7.gg/@amethyst"
-text = "Mastodon"
+text = "Mastodon: @amethyst@n7.gg"
 brand = "mastodon"
 
 [[social]]
 url = "https://bsky.app/profile/amethyst.cat"
-text = "Bluesky"
+text = "Bluesky: @amethyst.cat"
 brand = "bluesky"
 
 [[social]]
 url = "https://signal.me/#eu/QRxLDs2vtFFKsJkuu7duypytouSsQ20iW2iFVnlnE83RBUHsMEBMH6ihkcUd2vbQ"
-text = "Signal"
+text = "Signal: @she_ra.42"
 brand = "signal-messenger"
 
 [[social]]
 url = "mailto:amethyst@n7.gg"
-text = "Email"
+text = "Email: amethyst@n7.gg"
 icon = "envelope"
 
 [[social]]
 url = "https://github.com/amyreese"
-text = "@amyreese"
+text = "Github: @amyreese"
 brand = "github"
 
 [[social]]
 url = "https://steamcommunity.com/id/n7amy/"
+text = "Steam: n7amy"
 brand = "steam"
 
 [[social]]
 url = "https://last.fm/user/n7cmdr"
+text = "LastFM: n7cmdr"
 brand = "lastfm"
 
 

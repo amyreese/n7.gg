@@ -45,9 +45,8 @@
               <i class="fa-brands fa-{{ link.brand }}"></i>
               {% elif link.icon %}
               <i class="fa-solid fa-{{ link.icon }}"></i>
-              {% else %}
-              {{ link.text }}
               {% endif %}
+              <span class="socialhover">{{ link.text }}</span>
             </a>
           </li>
           {% endfor %}
