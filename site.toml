@@ -39,6 +39,11 @@ text = "Email: amethyst@n7.gg"
 icon = "envelope"
 
 [[social]]
+url = "https://discordapp.com/users/435962156534595584"
+text = "Discord: @n7amy"
+brand = "discord"
+
+[[social]]
 url = "https://github.com/amyreese"
 text = "Github: @amyreese"
 brand = "github"
